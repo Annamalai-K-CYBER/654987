@@ -38,7 +38,7 @@ export default function UploadPage() {
       try {
         const decoded = jwtDecode(token);
         setUsername(decoded?.username || "");
-        setIsAdmin(decoded?.role === "admin");
+        setIsAdmin(decoded?.role === "student");
       } catch (err) {
         console.error("Invalid token:", err);
       }

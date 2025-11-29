@@ -29,7 +29,7 @@ export default function WorkPage() {
     if (!token) return;
     try {
       const decoded = jwtDecode(token);
-      setIsAdmin(decoded?.role === "admin");
+      setIsAdmin(decoded?.role === "student");
       setUsername(decoded?.username || decoded?.name || "");
       setEmail(decoded?.email || "");
       setUserId(decoded?.userId || decoded?._id || "");
@@ -279,7 +279,7 @@ export default function WorkPage() {
                     </a>
                   )}
                   <p className="text-xs text-gray-400 mt-1">
-                    Added by: {w.addedBy || "Admin"}
+                    Added by: {w.addedBy || "student"}
                   </p>
 
                   <div className="mt-3 flex justify-between bg-gray-100 rounded-lg p-2 text-xs font-medium">
