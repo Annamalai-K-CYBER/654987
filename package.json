@@ -14,6 +14,7 @@
     "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.3",
     "google-auth-library": "^10.5.0",
+    "imagekit": "^6.0.0",
     "jsonwebtoken": "^9.0.2",
     "jwt-decode": "^4.0.0",
     "lucide-react": "^0.555.0",
