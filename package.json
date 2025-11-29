@@ -13,6 +13,7 @@
     "@huggingface/inference": "^4.13.4",
     "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.3",
+    "framer-motion": "^12.23.24",
     "google-auth-library": "^10.5.0",
     "imagekit": "^6.0.0",
     "jsonwebtoken": "^9.0.2",
